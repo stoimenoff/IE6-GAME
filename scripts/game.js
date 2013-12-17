@@ -43,14 +43,12 @@ function User(x,y,speed,hitPower,hitPoints){
 		this.canIJump = false;
 		//save this to another varaible so that you can use it in the timeout
 		var _this = this;
-		//go up
 		for(var i = 0; i < 25 ; i++){
+			//go up
 			setTimeout(function(){
 				_this.y -= 4;
 			},i*20);
-		}
-		//go down
-		for(var i = 0; i < 25 ; i++){
+			//go down after some seconds
 			setTimeout(function(){
 				_this.y += 4;
 			},(i+25)*20);
