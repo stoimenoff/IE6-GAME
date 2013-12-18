@@ -14,6 +14,7 @@ function User(x,y,speed,hitPower,hitPoints){
 	//set object properties for x,y coordinate and speed
 	this.x = x;
 	this.y = y;
+	//ti si shiban guz
 	this.speed = speed;
 	//some indicators
 	this.canIJump = true;
